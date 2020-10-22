@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="fiapcreditcarddatabase" uuid="3e803681-73a6-4f71-bec6-a5cc1deb92a4">
+    <data-source source="LOCAL" name="fiapcreditcarddatabase [2]" uuid="e4c61b6f-70e1-453e-9cbb-237582417f47">
       <driver-ref>h2.unified</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.h2.Driver</jdbc-driver>
