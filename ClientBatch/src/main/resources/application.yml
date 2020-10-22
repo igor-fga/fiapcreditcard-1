@@ -6,10 +6,12 @@ spring:
   batch:
     initialize-schema: ALWAYS
 
-file:
+fileAlunos:
   path:  /Users/temp/lista_alunos.txt
   chunk: lista_alunos.txt
 
-
+fileTransacoes:
+  path:  /Users/temp/lista_transacoes.txt
+  chunk: lista_transacoes.txt
 
 
