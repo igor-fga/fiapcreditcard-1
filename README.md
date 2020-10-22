@@ -16,3 +16,13 @@ A FIAP resolveu criar seu próprio cartão de crédito para ser utilizado pelos 
   
   ---
 ## Topologia
+
+![Imagem Topologia](Images/topologia.png)
+
+---
+
+## Download do projeto
+
+- Baixar o projeto: `$ git clone https://github.com/teixeira308/fiapcreditcard.git`
+
+---
