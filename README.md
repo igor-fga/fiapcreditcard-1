@@ -74,4 +74,4 @@ Esse projeto tem como objetivo criação, edição, busca e deleção de alunos,
   
   5- Entre no Package **br.com.fiapcreditcard** e clique na classe Java **FiapcreditcardApplication** e clique em **Run**.
   
-  6- Os serviços podem ser testados utilizado o swagger no endereço *http://localhost:8081/swagger-ui/index.html*
+  6- Os serviços podem ser testados utilizando o swagger no endereço *http://localhost:8081/swagger-ui/index.html*
