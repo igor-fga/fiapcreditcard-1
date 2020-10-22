@@ -44,3 +44,19 @@ Esse projeto tem como objetivo criar as tabelas TB_ALUNO e TB_TRANSACAO e gerar 
   
   5- Entre no Package **com.fiapcreditcard.clientBatch** e clique na classe Java **ClientBatchApplication** e clique em **Run**.
 
+### 2) Instalação e execução do projeto AutorizadorMock
+Esse projeto tem como objetivo simular uma autorizadora de cartões que recebe as informações de uma transação e devolve uma resposta aprovando ou negando a mesma. A implementação está aceitando qualquer transação recebida.
+
+- Importar o projeto (Ex. VS Code)
+
+  1- No VS Code, selecione **File > Open Folder...**.
+  
+  2- Entre na pasta do projeto **AutorizadorMock** e clique em selecionar pasta.
+  
+  3- Abra uma nova janala de terminal **Terminal > New Terminal**.
+  
+  4- Digite o comando `npm install`, esse comando é utilizado para instalação de todas as dependencias do projeto.
+  
+  5- Digitar o comando `npm start`, esse comando irá iniciar aplicação no endereço **http://localhost:3000**.
+
+
