@@ -4,3 +4,4 @@ Job de execução para criação de registros na tabela TB_ALUNOS, no banco de d
 
 ## Setup
 
+ Colocar os arquivos lista_alunos.txt e lista_transacoes.txt no caminh /Users/temp/.
