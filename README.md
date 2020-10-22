@@ -60,7 +60,7 @@ Esse projeto tem como objetivo simular uma autorizadora de cartões que recebe a
   5- Digitar o comando `npm start`, esse comando irá iniciar aplicação no endereço **http://localhost:3000**.
 
 ### 3) Instalação e execução do projeto Api
-Esse projeto tem como objetivo criação, edição, busca e deleção de alunos, criação e busca de transações, e o envio de extrao por aluno.
+Esse projeto tem como objetivo criação, edição, busca e deleção de alunos, criação e busca de transações, e o envio de extrato por aluno.
 
 - Importar o projeto (Ex. Eclipse)
 
