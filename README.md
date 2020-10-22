@@ -59,4 +59,19 @@ Esse projeto tem como objetivo simular uma autorizadora de cartões que recebe a
   
   5- Digitar o comando `npm start`, esse comando irá iniciar aplicação no endereço **http://localhost:3000**.
 
+### 3) Instalação e execução do projeto Api
+Esse projeto tem como objetivo criação, edição, busca e deleção de alunos, criação e busca de transações, e o envio de extrao por aluno.
 
+- Importar o projeto (Ex. Eclipse)
+
+  1- No Eclipse, selecione **File > Import...**.
+  
+  2- Na janela de importação, expandir Maven, selecione **Existing Maven Projects**, e clicar **Next**.
+  
+  3- Clicar em **Browse** e entre na pasta do projeto **Api**, onde contém o **pom.xml** que você deseja importar.
+  
+  4- Clicar em **Finish**. O Eclipse vai importar o projeto e iniciar o download dos recursos requeridos.
+  
+  5- Entre no Package **br.com.fiapcreditcard** e clique na classe Java **FiapcreditcardApplication** e clique em **Run**.
+  
+  6- Os serviços podem ser testados utilizado o swagger no endereço *http://localhost:8081/swagger-ui/index.html*
