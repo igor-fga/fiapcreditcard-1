@@ -12,7 +12,66 @@ A FIAP resolveu criar seu próprio cartão de crédito para ser utilizado pelos 
   
   2- Utilizar uma IDE para execução dos projetos de API e Batch desenvolvidos em Java. Ex. IntelliJ ou Eclipse.
   
-  3- Utilizar uma IDE para execução do projeto Autorizador densenvolvido em NodeJS. Ex. Visual Code
+  3- Utilizar uma IDE para execução do projeto Autorizador desenvolvido em NodeJS. Ex. VS Code.
   
   ---
 ## Topologia
+
+![Imagem Topologia](Images/topologia.png)
+
+---
+
+## Download do projeto
+
+- Baixar o projeto: `$ git clone https://github.com/teixeira308/fiapcreditcard.git`
+
+---
+
+## Instruções execução dos projetos
+
+### 1) Instalação e execução do projeto ClientBatch
+Esse projeto tem como objetivo criar as tabelas TB_ALUNO e TB_TRANSACAO e gerar uma massa de dados para ambas as tabelas. A massa de dados é criado a partir de dois arquivos textos armazenados em **src/main/resources**.
+
+- Importar o projeto (Ex. Eclipse)
+
+  1- No Eclipse, selecione **File > Import...**.
+  
+  2- Na janela de importação, expandir Maven, selecione **Existing Maven Projects**, e clicar **Next**.
+  
+  3- Clicar em **Browse** e entre na pasta do projeto **ClientBatch**, onde contém o **pom.xml** que você deseja importar.
+  
+  4- Clicar em **Finish**. O Eclipse vai importar o projeto e iniciar o download dos recursos requeridos.
+  
+  5- Entre no Package **com.fiapcreditcard.clientBatch** e clique na classe Java **ClientBatchApplication** e clique em **Run**.
+
+### 2) Instalação e execução do projeto AutorizadorMock
+Esse projeto tem como objetivo simular uma autorizadora de cartões que recebe as informações de uma transação e devolve uma resposta aprovando ou negando a mesma. A implementação está aceitando qualquer transação recebida.
+
+- Importar o projeto (Ex. VS Code)
+
+  1- No VS Code, selecione **File > Open Folder...**.
+  
+  2- Entre na pasta do projeto **AutorizadorMock** e clique em selecionar pasta.
+  
+  3- Abra uma nova janala de terminal **Terminal > New Terminal**.
+  
+  4- Digite o comando `npm install`, esse comando é utilizado para instalação de todas as dependencias do projeto.
+  
+  5- Digitar o comando `npm start`, esse comando irá iniciar aplicação no endereço **http://localhost:3000**.
+
+### 3) Instalação e execução do projeto Api
+Esse projeto tem como objetivo criação, edição, busca e deleção de alunos, criação e busca de transações, e o envio de extrato por aluno.
+
+- Importar o projeto (Ex. Eclipse)
+
+  1- No Eclipse, selecione **File > Import...**.
+  
+  2- Na janela de importação, expandir Maven, selecione **Existing Maven Projects**, e clicar **Next**.
+  
+  3- Clicar em **Browse** e entre na pasta do projeto **Api**, onde contém o **pom.xml** que você deseja importar.
+  
+  4- Clicar em **Finish**. O Eclipse vai importar o projeto e iniciar o download dos recursos requeridos.
+  
+  5- Entre no Package **br.com.fiapcreditcard** e clique na classe Java **FiapcreditcardApplication** e clique em **Run**.
+  
+  6- Os serviços podem ser testados utilizando o swagger no endereço *http://localhost:8081/swagger-ui/index.html*
