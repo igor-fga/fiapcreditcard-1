@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("extrato")
+@RequestMapping("extratos")
 public class ExtratoController {
 
     private final ExtratoService extratoService;
@@ -24,7 +24,7 @@ public class ExtratoController {
     }
 
     @GetMapping
-    @Operation(description = "Listagem de alunos por nome")
+    @Operation(description = "Envio de extrato por aluno")
     @ResponseStatus(HttpStatus.OK)
     public void sendExtract(@RequestParam Long id, String email) {
         ExtratoDTO extratoDTO = new ExtratoDTO();

@@ -14,7 +14,7 @@ import java.net.URISyntaxException;
 import java.util.List;
 
 @RestController
-@RequestMapping("transacao")
+@RequestMapping("transacoes")
 public class TransacaoController {
 
     private final TransacaoService transacaoService;
