@@ -1,10 +1,6 @@
 # ClientBatch - Job para leitura de arquivo e inserção no banco de dados
 
-API Autorização, mock para projeto fiapcreditcard
+Job de execução para criação de registros na tabela TB_ALUNOS, no banco de dados H2 fiapcreditcarddatabase.
 
 ## Setup
-
-Instale o node.js
-Faça o clone ou download dos arquivos, e em seguida informe o comando no terminal:
-
 
