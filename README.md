@@ -26,3 +26,21 @@ A FIAP resolveu criar seu próprio cartão de crédito para ser utilizado pelos 
 - Baixar o projeto: `$ git clone https://github.com/teixeira308/fiapcreditcard.git`
 
 ---
+
+## Instruções execução dos projetos
+
+### 1) Instalação e execução do projeto ClientBatch
+Esse projeto tem como objetivo criar as tabelas TB_ALUNO e TB_TRANSACAO e gerar uma massa de dados para ambas as tabelas. A massa de dados é criado a partir de dois arquivos textos armazenados em **src/main/resources**.
+
+- Importar o projeto (Ex. Eclipse)
+
+  1- No Eclipse, selecione **File > Import...**.
+  
+  2- Na janela de importação, expandir Maven, selecione **Existing Maven Projects**, e clicar **Next**.
+  
+  3- Clicar em **Browse** e entre na pasta do projeto **ClientBatch**, onde contém o **pom.xml** que você deseja importar.
+  
+  4- Clicar em **Finish**. O Eclipse vai importar o projeto e iniciar o download dos recursos requeridos.
+  
+  5- Entre no Package **com.fiapcreditcard.clientBatch* e clique na classe Java **ClientBatchApplication** e clique em **Run**.
+
