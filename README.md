@@ -12,7 +12,7 @@ A FIAP resolveu criar seu próprio cartão de crédito para ser utilizado pelos 
   
   2- Utilizar uma IDE para execução dos projetos de API e Batch desenvolvidos em Java. Ex. IntelliJ ou Eclipse.
   
-  3- Utilizar uma IDE para execução do projeto Autorizador desenvolvido em NodeJS. Ex. VS Code
+  3- Utilizar uma IDE para execução do projeto Autorizador desenvolvido em NodeJS. Ex. VS Code.
   
   ---
 ## Topologia
