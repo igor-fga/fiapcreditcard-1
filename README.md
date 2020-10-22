@@ -42,5 +42,5 @@ Esse projeto tem como objetivo criar as tabelas TB_ALUNO e TB_TRANSACAO e gerar 
   
   4- Clicar em **Finish**. O Eclipse vai importar o projeto e iniciar o download dos recursos requeridos.
   
-  5- Entre no Package **com.fiapcreditcard.clientBatch* e clique na classe Java **ClientBatchApplication** e clique em **Run**.
+  5- Entre no Package **com.fiapcreditcard.clientBatch** e clique na classe Java **ClientBatchApplication** e clique em **Run**.
 
